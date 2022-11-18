@@ -5,5 +5,9 @@ def cities_dict(cities:list):
         cities(list): list of cities names
     Returns:
         dict: dictionary with keys ordered by city name
-    """
-    return
+    """ 
+    x1=cities
+    return x1
+print(cities_dict({1:"Samarqand",
+    2:"Tashkent",
+    3:"Navoiy"}))
