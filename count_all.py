@@ -7,4 +7,13 @@ def count_all(txt):
     Returns:
         dict: dictionary with letters and digits
     """
-    return
+    p=txt
+    m=0
+    x1=0
+    n=len(p)
+    for i in p:
+        if (i.isalpha()):
+            m=m+1
+            x1=n-m
+    return m , x1
+print(count_all("1Salom323") )
